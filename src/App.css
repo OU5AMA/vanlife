@@ -1,0 +1,75 @@
+
+
+.home {
+  background-image:  url("./assets/imageHome.png");
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+  color: #FFF7ED;
+  text-align: center;
+
+}
+
+.home h1 {
+  margin: 80px;
+  font-weight: bold;  
+}
+
+.home p{
+  font-size: large;
+  font-weight: 600;
+  
+}
+
+.home button{
+  background: #FF8C38;
+  color: #FFF7ED;
+  justify-items: center;
+  width: 494.33px;
+  height: 49.83px;
+  top: 383.7px;
+  left: 26.91px;
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
+  border-radius: 10px;
+  margin: 50px;
+  margin: 110px;
+}
+
+.about{
+  background: rgb(23, 31, 39);
+  width: 100%;
+  color: #FFF7ED;
+}
+
+
+.about img{
+  object-fit: contain;
+  padding: auto;
+  align-self: center;
+  align-items: baseline;
+  /* align-items: center; */
+  justify-content: center;
+  position: relative;
+  left: 25%;
+}
+
+.about .content{
+  display: block;
+  position: absolute;
+  top: 100px;
+  margin: 140px;
+  padding: auto;
+  align-self: center;
+  align-content: center;
+}
+
+.vans-list {
+  width: 100vw;
+  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  background-color: red;
+}
